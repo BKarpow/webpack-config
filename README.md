@@ -5,18 +5,18 @@
 
 # Usage (Використання)
 
-Для початку  встановіть пакети npm
-''' npm install
+>Для початку  встановіть пакети npm
+>	npm install
 
-Збірка в режимі розробки (development)
-''' npm run dev
+>Збірка в режимі розробки (development)
+>	npm run dev
 
-Збірка в режимі готової продукції (production)
-''' npm run build
+>Збірка в режимі готової продукції (production)
+	npm run build
 
-Відстеження зміни файлів та компіляція 
-''' npm run watch
+>Відстеження зміни файлів та компіляція 
+	npm run watch
 
-Запуск серверу розробника.
-''' npm run serve
+>Запуск серверу розробника.
+	npm run serve
 
