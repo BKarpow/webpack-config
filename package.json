@@ -1,0 +1,55 @@
+{
+  "name": "webpack-lessons",
+  "version": "1.0.0",
+  "description": "webpack lessons",
+  "main": "./index.js",
+  "private": true,
+  "scripts": {
+    "dev": "npx cross-env NODE_ENV=development npx webpack --mode development",
+    "watch": "npx cross-env NODE_ENV=development npx webpack --mode development --watch",
+    "build": "npx webpack --mode production",
+    "serve": "npx cross-env NODE_ENV=development npx webpack-dev-server --mode development --open"
+  },
+  "browserslist": "> 0.25%, not dead",
+  "keywords": [
+    "js",
+    "css",
+    "webpack"
+  ],
+  "author": "BogdanKarpow <bogdan@karpow.site>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^7.0.2",
+    "css-loader": "^3.6.0",
+    "csv-loader": "^3.0.3",
+    "eslint": "^7.5.0",
+    "eslint-loader": "^4.0.2",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "less": "^3.12.2",
+    "less-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.2",
+    "style-loader": "^1.2.1",
+    "terser-webpack-plugin": "^3.0.7",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "xml-loader": "^1.2.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.10.4",
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "normalize.css": "^8.0.1"
+  }
+}

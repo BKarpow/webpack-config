@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emails>
+    <item id="0">
+        <to>Vladilen</to>
+        <from>Webpack</from>
+        <heading>Tutorial</heading>
+        <body>Finish the record</body>
+    </item>
+    <item id="1">
+        <to>Vladilen</to>
+        <from>Webpack</from>
+        <heading>Tutorial</heading>
+        <body>Finish the record</body>
+    </item>
+    <item id="2">
+        <to>Vladilen</to>
+        <from>Webpack</from>
+        <heading>Tutorial</heading>
+        <body>Finish the record</body>
+    </item>
+</emails>

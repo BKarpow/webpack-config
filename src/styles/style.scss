@@ -1,0 +1,27 @@
+//@import "~normalize.css";
+@import "~bootstrap";
+@import "fontRabota.css";
+
+body{
+  font-family: Roboto ;
+  font-size: 2rem;
+  background: darken(#fff, 52);
+}
+
+.container{
+  padding-top: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h2{
+  text-align: center;
+}
+
+.logo{
+  background-image: url("../assets/webpack-logo.png");
+  background-size: cover;
+  width: 200px;
+  margin: 0 auto;
+  height: 200px;
+}
